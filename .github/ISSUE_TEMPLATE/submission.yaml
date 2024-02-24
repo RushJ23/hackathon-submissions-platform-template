@@ -43,18 +43,10 @@ body:
     id: project-link
     attributes:
       label: Project Repo
-      description: Share a public repo link of your project
+      description: Share a public repo link of your project including your presentation
       placeholder: https://github.com/code-capture/CodeCapture-Xamarin
     validations:
       required: true
-  - type: input
-    id: demo-link
-    attributes:
-      label: Demo Video/Photos
-      description: Share a publicly visible demo video/photos link of your project
-      placeholder: https://www.youtube.com/watch?v=9IBaX1avYWc
-    validations:
-      required: false
   - type: textarea
     id: anything-else
     attributes:
